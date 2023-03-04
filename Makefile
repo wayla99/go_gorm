@@ -6,3 +6,6 @@ swagger:
 
 unit-test:
 	go test -v ./src/...
+
+tidy:
+	go mod tidy
